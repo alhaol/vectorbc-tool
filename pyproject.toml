@@ -1,0 +1,24 @@
+[project]
+name = "vectobt-ibrahim"
+version = "0.1.0"
+description = "Professional quantitative simulation environment for Docker and cross-platform use"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "vectorbt",
+    "jupyterlab",
+    "yfinance",
+    "pandas",
+    "numpy",
+    "plotly",
+    "scipy",
+    "statsmodels",
+    "pandas-ta",
+    "quantstats"
+]
+
+[tool.uv]
+managed = true
+
+[tool.uv.pip]
+universal = true
