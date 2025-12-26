@@ -1,5 +1,5 @@
 [project]
-name = "vectobt-ibrahim"
+name = "vectorbc-tool-lab"
 version = "0.1.0"
 description = "Professional quantitative simulation environment for Docker and cross-platform use"
 readme = "README.md"
